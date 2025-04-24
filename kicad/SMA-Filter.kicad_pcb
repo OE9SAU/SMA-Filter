@@ -88,15 +88,15 @@
 	(footprint "0400LP15A0122E:FIL_0400LP15A0122E"
 		(layer "F.Cu")
 		(uuid "2a066bb8-bfc3-474f-aaa7-387662f3e31f")
-		(at 106.03 80.38)
+		(at 106.167 80.264)
 		(property "Reference" "FL1"
-			(at 0.007 -2.4064 0)
+			(at 1.529 1.27 0)
 			(layer "F.SilkS")
 			(uuid "19945c56-be45-4a8c-ab87-d244bcc75543")
 			(effects
 				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
+					(size 0.25 0.25)
+					(thickness 0.0625)
 				)
 			)
 		)
@@ -574,7 +574,7 @@
 			(at -0.65 0.9)
 			(size 0.35 1)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 2 "GND")
+			(net 3 "Net-(FL1-Pad8)")
 			(pinfunction "GND")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
@@ -633,7 +633,7 @@
 			(at -0.65 -0.9)
 			(size 0.35 1)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 2 "GND")
+			(net 3 "Net-(FL1-Pad8)")
 			(pinfunction "GND")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
@@ -663,10 +663,11 @@
 	(footprint "60312202114508:60312202114508"
 		(layer "F.Cu")
 		(uuid "777ac761-ebff-4328-841c-d9b92dafdd34")
-		(at 114.3 80.245 90)
+		(at 112.522 80.283 90)
 		(property "Reference" "J1"
-			(at 0 -3.635 90)
+			(at -2.775 -3.302 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b37f9ca3-ef76-44e6-9f9e-11ab58b049ed")
 			(effects
 				(font
@@ -1023,28 +1024,6 @@
 			(layer "F.Fab")
 			(uuid "bc9330ec-b27f-45db-b5fc-a2e3ae89a192")
 		)
-		(fp_text user "PCB Thincness 1.1mm"
-			(at -2.2 4.1 90)
-			(layer "Dwgs.User")
-			(uuid "78dcc61c-b39a-4a8e-ad02-77639cafecb1")
-			(effects
-				(font
-					(size 0.24 0.24)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "PCB End"
-			(at -2.4 3.5 90)
-			(layer "Dwgs.User")
-			(uuid "c552f65c-2106-4000-9ca5-0d3075a1e579")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" smd rect
 			(at 0 0 90)
 			(size 0.9 4.1)
@@ -1092,23 +1071,24 @@
 		)
 		(model "K:/Eigene Dateien/HAM/DIY/SMA-Filter/lib/60312202114508/60312202114508.step"
 			(offset
-				(xyz 0 2 -1.5)
+				(xyz 0 -2 0.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
 	(footprint "60314202124525:60314202124525"
 		(layer "F.Cu")
 		(uuid "eb913d79-e552-448e-a51b-af32ae7cd4d7")
-		(at 96.52 80.84 -90)
+		(at 99.314 80.264 -90)
 		(property "Reference" "J2"
-			(at 0 -4.135 90)
+			(at 2.794 -3.81 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "668da6ef-db7d-421b-85e4-4e68aaba5a3d")
 			(effects
 				(font
@@ -1120,6 +1100,7 @@
 		(property "Value" "60314202124525"
 			(at 14.89 0 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ef0192a1-8d1b-406b-824e-4181f3004392")
 			(effects
 				(font
@@ -1464,28 +1445,6 @@
 			(layer "F.Fab")
 			(uuid "2a167a70-5451-4ffd-ac4a-e5240b8b3eb6")
 		)
-		(fp_text user "PCB End"
-			(at -2.3 4.5 90)
-			(layer "Dwgs.User")
-			(uuid "107a156e-90fe-461a-9336-f3886582f40f")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "PCB Thincness 1.6mm"
-			(at -2.1 5 90)
-			(layer "Dwgs.User")
-			(uuid "f5a8e79b-f335-454a-aa0c-e7e156d3cc4e")
-			(effects
-				(font
-					(size 0.24 0.24)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" smd rect
 			(at 0 0 270)
 			(size 0.9 5)
@@ -1533,70 +1492,102 @@
 		)
 		(model "K:/Eigene Dateien/HAM/DIY/SMA-Filter/lib/60314202124525/60314202124525.step"
 			(offset
-				(xyz 0 9 0)
+				(xyz 0 -4 0.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 180 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
 	(gr_line
-		(start 93.98 73.66)
-		(end 93.98 87.63)
+		(start 96.774 74.93)
+		(end 96.774 85.598)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
-		(layer "Margin")
-		(uuid "098cef79-ce7d-4800-bae2-82ec1f8b195e")
+		(layer "Edge.Cuts")
+		(uuid "112e348f-08d9-4a43-a7a5-50e4431b3bfc")
 	)
 	(gr_line
-		(start 116.84 73.66)
-		(end 93.98 73.66)
+		(start 96.774 74.93)
+		(end 114.808 74.93)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
-		(layer "Margin")
-		(uuid "3fd0452a-2647-4e63-b64a-a51ceffdbc2e")
+		(layer "Edge.Cuts")
+		(uuid "14d4d239-58d1-4fb0-bb3a-a365823a4215")
 	)
 	(gr_line
-		(start 116.84 87.63)
-		(end 116.84 73.66)
+		(start 114.808 74.93)
+		(end 114.808 85.598)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
-		(layer "Margin")
-		(uuid "eba61c37-7c3c-4bb7-bff8-251eb07ccbff")
+		(layer "Edge.Cuts")
+		(uuid "82fb5c57-e8a9-42a4-a501-616b066b6db9")
 	)
 	(gr_line
-		(start 93.98 87.63)
-		(end 116.84 87.63)
+		(start 96.774 85.598)
+		(end 114.808 85.598)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
-		(layer "Margin")
-		(uuid "fbfb1452-f3bb-43ee-a656-bb7b0a3b245c")
+		(layer "Edge.Cuts")
+		(uuid "f5114f2d-cfe4-4f1c-a104-ba22ac42eafe")
+	)
+	(gr_text "SMA-Filter \nOE9SAU 04/25 v1"
+		(at 109.474 76.708 0)
+		(layer "B.SilkS")
+		(uuid "9ffec5b4-7296-48c0-8658-036206a4abab")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SMA-Filter \nOE9SAU 04/25 v1"
+		(at 102.616 76.708 0)
+		(layer "F.SilkS")
+		(uuid "2690e4f2-f876-481b-85a5-fb8f295be061")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
-		(start 114.3 80.245)
-		(end 107.44 80.245)
+		(start 107.442 80.264)
+		(end 112.503 80.264)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "29e1fa22-ba25-49b4-89af-1657ec406f08")
+	)
+	(segment
+		(start 112.503 80.264)
+		(end 112.522 80.283)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "0b03f0b2-bbaa-445f-b5e7-4797ca8b8b19")
+		(uuid "4a892505-8620-4ef3-a760-de1a5841ad6e")
 	)
 	(segment
-		(start 107.44 80.245)
-		(end 107.305 80.38)
-		(width 0.2)
+		(start 104.892 80.264)
+		(end 99.314 80.264)
+		(width 0.5)
 		(layer "F.Cu")
-		(net 1)
-		(uuid "6a697f0a-9cf2-4b01-a8ec-2f3e42aaac47")
+		(net 3)
+		(uuid "c49e4d00-4661-4f11-8649-3d195d4635bc")
 	)
 )
