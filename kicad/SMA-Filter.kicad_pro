@@ -382,6 +382,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "118ce8e1-b4ef-4d34-a67c-92648395f5d2",
+      "Stammblatt"
+    ]
+  ],
   "text_variables": {}
 }
