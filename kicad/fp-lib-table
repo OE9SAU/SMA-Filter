@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "0400LP15A0122E")(type "KiCad")(uri "K:/Eigene Dateien/HAM/DIY/SMA-Filter/lib/0400LP15A0122E")(options "")(descr ""))
+)
