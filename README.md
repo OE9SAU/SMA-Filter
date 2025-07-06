@@ -4,6 +4,11 @@
 SMD0805, 373MHz Mittenfrequenz, Johanson Technology, 0400LP15A0122001E
 
 
-![SMA-Filter](SMA-Filter.png)
-![SMA-Filter](Filter_open.png)
+![SMA-Filter_kicad](SMA-Filter.png)
+![SMA-Filter_opne](Filter_open.png)
 ![SMA-Filter](Filter.png)
+![SMA-Filter_HP](Kennlinie_HP.png)
+![SMA-Filter_SWR](SWR.png)
+![SMA-Filter_NVA1](S21.png)
+
+
