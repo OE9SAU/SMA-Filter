@@ -4,6 +4,7 @@
 SMD0805, 373MHz Mittenfrequenz, Johanson Technology, 0400LP15A0122001E
 
 Housing: 
+
 2x copper hose cap
 https://www.obi.at/loetfittings/kappe-fuer-loetfittings-12-mm-kupfer/p/6531586
 
